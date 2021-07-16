@@ -27,7 +27,7 @@
 
 1）JVM支持两种类型的的类加载器，分别为 *引导类加载器（Bootstrap ClassLoader* 和 *自定义类加载器（User-Defined ClassLoader）*，之所以这么说，从概念上讲，将所有派生于派生于抽象类ClassLoader的类加载器都归为自定义类加载器。也就说，常听说的拓展类加载器和系统（应用）类加载器都归为自定义类加载器。
 
-![image-20210715210002400](images\class_loaders.png)
+![class loaders](images/class_loaders.png)
 
 **注**：这四者不是继承关系，是包含关系。引导类加载器不是使用java语言编写的（c/c++实现），其他的都是使用java语言编写。
 
